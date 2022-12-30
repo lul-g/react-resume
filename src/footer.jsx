@@ -7,14 +7,16 @@ export default function Footer() {
         target='_blank'
         className='developer'
       >
-        Lul (Lulseged Admasu)
+        Developed by <i class='fa-solid fa-code'></i>
+        <span>Lul (Lulseged Admasu)</span>
       </a>
       <a
         href='https://www.enji.dev/work/contact'
         target='_blank'
         className='designer'
       >
-        Enji Kusnadi
+        Designed by <i class='fa-solid fa-pen-nib'></i>{" "}
+        <span>Enji Kusnadi</span>
       </a>
     </footer>
   );

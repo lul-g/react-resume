@@ -33,8 +33,8 @@ li {
 }
 .border {
   border-bottom: 1px solid var(--border-clr);
-  margin-bottom: 1rem;
-  padding-bottom: 2rem;
+  margin: 0 0 2rem 0;
+  padding: 2rem;
   font-family: var(--ff-barlow);
 }
 
@@ -92,6 +92,7 @@ li {
   margin-bottom: 2rem;
 }
 .body a,
+footer span,
 footer a {
   text-decoration: none;
   color: var(--txt-secondary-clr-dark);
@@ -99,29 +100,33 @@ footer a {
   transition: all 0.5s linear;
   position: relative;
   z-index: 1;
+  width: fit-content;
 }
 .body a::after,
-footer a::after {
+footer span::after {
   content: "";
   height: 20%;
   width: 100%;
   position: absolute;
   background-color: #7733ff;
-  left: 0;
-  bottom: -0.2rem;
+  left: 0rem;
+  bottom: -0.3rem;
   transition: 0.2s linear height;
   z-index: -1;
 }
-footer a::after {
-  bottom: 0;
-}
 .body a:hover::after,
-footer a:hover::after {
-  height: 110%;
+footer span:hover::after {
+  height: 130%;
 }
 footer {
-  font-size: 17px;
+  font-family: var(--ff-barlow);
+  padding: 0 4rem;
+  font-size: 20px;
 }
+footer a {
+  font-weight: 700;
+}
+
 .work img {
   margin: 0 1rem;
   height: 20px;
@@ -150,4 +155,9 @@ footer {
 }
 .skill {
   margin-bottom: 2rem;
+}
+
+footer i {
+  color: #7733ff;
+  padding: 0 0.5rem;
 }

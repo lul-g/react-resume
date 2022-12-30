@@ -25,7 +25,8 @@
 .App {
   margin: 2rem auto;
   max-width: 955px;
-  /* border: 1px solid var(--border-clr); */
+  border: 1px solid var(--border-clr);
+  padding: 2rem 0;
 }
 body {
   background-color: var(--bg-clr);
@@ -74,16 +75,16 @@ label::after {
   transition: all ease 0.2s;
 }
 label:hover::after {
-  color: #0fbbff;
+  color: #7733ff;
 }
 input:checked ~ label::after {
   content: "\f6c3";
 }
 #border-circle {
-  stroke: #479eef;
+  stroke: #7733ff;
 }
 #circle-fill {
-  fill: #479eef;
+  fill: #7733ff;
 }
 
 .title h1 {
