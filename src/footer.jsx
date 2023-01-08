@@ -7,7 +7,7 @@ export default function Footer() {
         target='_blank'
         className='developer'
       >
-        Developed by <i class='fa-solid fa-code'></i>
+        Developed by <i className='fa-solid fa-code'></i>
         <span>Lul (Lulseged Admasu)</span>
       </a>
       <a
@@ -15,7 +15,7 @@ export default function Footer() {
         target='_blank'
         className='designer'
       >
-        Designed by <i class='fa-solid fa-pen-nib'></i>{" "}
+        Designed by <i className='fa-solid fa-pen-nib'></i>{" "}
         <span>Enji Kusnadi</span>
       </a>
     </footer>

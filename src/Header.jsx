@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./header.css";
-import { ReactComponent as Logo } from "./assets/logo.svg";
+import { ReactComponent as Logo } from "./assets/logo_sm.svg";
 
-export default function Hedaer() {
+export default function Header() {
   return (
     <header>
       <div className='flex'>
@@ -28,7 +28,10 @@ export default function Hedaer() {
       </div>
       <div className='socials flex'>
         <span className='portfolio'>
-          <a target='_blank' href='https://lulseged-admasu.netlify.app/'></a>
+          <a
+            target='_blank'
+            href='https://lulseged-admasu-final.netlify.app/'
+          ></a>
           <i className='fa-solid fa-globe'></i>/lul-g
         </span>
         <span className='github'>

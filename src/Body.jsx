@@ -82,7 +82,7 @@ export default function Hedaer() {
       </div>
       <div className='projects border flex-s'>
         <p className='title'>Featured Projects</p>
-        <p className='content'>
+        <div className='content'>
           <div className='stuff'>
             <p>
               Rick &#38; Morty <span>- Developer</span>
@@ -147,11 +147,11 @@ export default function Hedaer() {
               </a>
             </div>
           </div>
-        </p>
+        </div>
       </div>
       <div className='skills border flex-s'>
         <p className='title'>Skills &#38; Tools</p>
-        <p className='content'>
+        <div className='content'>
           <div className='languages skill'>
             <div className='title'>Languages</div>
             <ul className='grid'>
@@ -199,7 +199,7 @@ export default function Hedaer() {
               <li className='label'>pexels</li>
             </ul>
           </div>
-        </p>
+        </div>
       </div>
     </div>
   );
