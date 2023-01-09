@@ -7,10 +7,10 @@ export default function Header() {
     <header>
       <div className='flex'>
         <Logo className='logo' />
-        <div className='light-toggler-container'>
+        {/* <div className='light-toggler-container'>
           <input type='checkbox' id='check' />
           <label htmlFor='check'></label>
-        </div>
+        </div> */}
       </div>
       <div className='title'>
         <h1>LULSEGED ADMASU</h1>

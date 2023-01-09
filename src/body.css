@@ -14,7 +14,7 @@ li {
 }
 .body {
   background-color: var(--bg-clr);
-  margin: 4rem;
+  margin: 0 4rem 4rem 4rem;
 }
 .grid {
   display: grid;
