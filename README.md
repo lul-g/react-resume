@@ -1,3 +1,3 @@
 # react-resume
 
-[My Resume](https://resume-lul.netlify.app/)
+[React Resume Website](https://resume-lul.netlify.app/)
